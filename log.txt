@@ -1,0 +1,7 @@
+2019-02-20 15:38:56,514 - root - WARNING - Traceback (most recent call last):
+  File "/root/PycharmProjects/datasketch_similarity/utils/DButil.py", line 146, in drop_table
+    cursor.execute(drop_sql)
+  File "/root/anaconda3/envs/tensorflow/lib/python3.6/site-packages/DBUtils/SteadyDB.py", line 605, in tough_method
+    result = method(*args, **kwargs)  # try to execute
+cx_Oracle.DatabaseError: ORA-00942: 表或视图不存在
+
